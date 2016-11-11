@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TPI_Java_Web">
+        <wb-resource deploy-path="/" source-path="/TPI_Java_Web" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="TPI_Java_Web"/>
+        <property name="java-output-path" value="/TPI_Java_Web/build/classes"/>
+    </wb-module>
+</project-modules>
