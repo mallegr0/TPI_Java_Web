@@ -1,0 +1,62 @@
+
+body {
+	background-color: #DAF7A6;
+	height: 100%;
+}
+
+.contenedor {
+	display: inline-flex;
+	width: 100%;
+}
+
+
+.peleadorA {
+	border: 5px solid #8B0000;
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #F00;
+	border-radius: 5px;
+}
+
+.peleadorB {
+	border: 5px solid #000080;
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #00F;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+form {
+	text-align: center; 
+}
+
+#cuerpo {
+	margin-bottom: 0px;
+	bottom: 0px;
+	min-height: 100%;
+	width: 100%;
+	display: inline-block;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+}
+
+tr td {
+	margin: 10px 0 0 0;
+}

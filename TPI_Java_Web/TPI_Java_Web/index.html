@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>UTN Fighter - Java 2016</title>
+<link type="text/css" rel="stylesheet" href="CSS/estilo.css"/>
+</head>
+	<body>
+		<h1>UTN FIGHTER</h1>
+		<div class="contenedor">
+			<!-- ACA VA LOS DATOS DEL PELEADOR 1 -->
+			<div class="peleadorA">
+				<div>
+					<!--  BUSCO AL PERSONAJE 1 -->
+					<h3>Peleador 1</h3>
+					<form action="servlet" method="get" name="BuscaPersonaje">
+						<input placeholder="Personaje 1"></input>
+						<button name="buscar" type="submit">>></button>
+					</form>
+				</div>
+				
+				<!--  SETEO LOS DATOS Y LOS BOTONES -->
+				<div id="cuerpo">
+					<table >
+						<form action="servlet" name="carga_datos" method="get">
+							<tr>
+								<td></td>
+								<td colspan="2"><strong>Vida: </strong><input/></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2"><strong>Energia: </strong><input/></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><button name="atacar" type="submit">Atacar</button></td>
+								<td><button name="defender" type="submit">Defender</button></td>
+								<td></td>
+							</tr>
+						</form>
+					</table>
+				</div>	
+			</div>
+			
+			<!-- ACA VA LOS DATOS DEL PELEADOR 2 -->
+			<div class="peleadorB">
+				<div>
+					<!--  BUSCO AL PERSONAJE 2 -->
+					<h3>Peleador 2</h3>
+					<form action="get" name="BuscaPersonaje">
+						<input placeholder="Personaje 2"></input>
+						<button name="buscar" type="button">>></button>
+					</form>
+				</div>
+				
+				<!--  SETEO LOS DATOS Y LOS BOTONES -->
+				<div id="cuerpo">
+					<table >
+						<form action="servlet" name="carga_datos" method="get">
+							<tr>
+								<td></td>
+								<td colspan="2"><strong>Vida: </strong><input/></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2"><strong>Energia: </strong><input/></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><button name="atacar" type="submit">Atacar</button></td>
+								<td><button name="defender" type="submit">Defender</button></td>
+								<td></td>
+							</tr>
+						</form>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
