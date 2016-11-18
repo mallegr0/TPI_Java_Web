@@ -1,7 +1,13 @@
 package entidades;
 
-public class Personaje {
+import java.io.Serializable;
+
+public class Personaje implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	static int puntajeInicial = 200;
 	static int maximoDeEvasion = 80;
 	static int maximoDeDefensa = 20;
